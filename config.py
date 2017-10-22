@@ -4,14 +4,21 @@ token = 'eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwicGNrIjoxLCJhbGciOiJkaXIiLCJ0diI6Miwia2l
 
 
 ICONS = {
+    'fa-birthay-cake': '&#xf1fd;',
+    'fa-camera': '&#xf030;',
+    'fa-coffee': '&#xf0f4;',
     'fa-credit-card': '&#xf09d;',
+    'fa-heart': '&#xf004;',
+    'fa-hotel': '&#xf236;',
+    'fa-tree': '&#xf1bb;',
+    'fa-twitter': '&#xf099;',
 }
 
 SCAFFOLDING_OFFERS = [
     # {
     #     'id': 1,
     #     'title': 'Happy Birthday, Lucas! ***EXCLUSIVE***',
-    #     'icon': '&#xf1fd;',
+    #     'icon': ICONS['fa-birthday-cake'],
     #     'text': '$20 off Italianos, pay with pts',
     #     'category': 'Food & Dining',
     #     'subcategory': 'Restaurant',
@@ -23,7 +30,7 @@ SCAFFOLDING_OFFERS = [
     {
         'id': 2,
         'title': 'Early Holiday Escape.',
-        'icon': '&#xf236;',
+        'icon': ICONS['fa-hotel'],
         'text': '25% bonus pts at Hilton.',
         'expiration': '11/25/2017',
         'category': 'Travel',
@@ -34,7 +41,7 @@ SCAFFOLDING_OFFERS = [
     {
         'id': 3,
         'title': 'Refill your prescription.',
-        'icon': '&#xf004;',
+        'icon': ICONS['fa-heart'],
         'text': '+200 pts at CVS.',
         'expiration': '10/31/2017',
         'category': 'Health & Fitness',
@@ -45,7 +52,7 @@ SCAFFOLDING_OFFERS = [
     {
         'id': 4,
         'title': 'Fall Coffee is Here.',
-        'icon': '&#xf0f4;',
+        'icon': ICONS['fa-coffee'],
         'text': 'FREE Pumpkin Spice at Starbucks.',
         'expiration': '11/11/2017',
         'category': 'Food & Dining',
@@ -56,7 +63,7 @@ SCAFFOLDING_OFFERS = [
     {
         'id': 5,
         'title': 'Gear up your camera for Christmas!',
-        'icon': '&#xf030;',
+        'icon': ICONS['fa-camera'],
         'text': '+1,000 pts, free shipping from B&H Photo.',
         'expiration': '12/1/2017',
         'category': 'Shopping',
@@ -69,7 +76,7 @@ SCAFFOLDING_OFFERS = [
     {
         'id': 6,
         'title': 'Beach time!',
-        'icon': '&#xf236;',
+        'icon': ICONS['fa-hotel'],
         'text': '25% bonus pts at Cubana.',
         'expiration': '11/25/2017',
         'category': 'Travel',
@@ -80,7 +87,7 @@ SCAFFOLDING_OFFERS = [
     {
         'id': 7,
         'title': 'Turkey Time?',
-        'icon': '&#xf099;',
+        'icon': ICONS['fa-twitter'],
         'text': '+500 pts at Wholefoods.',
         'expiration': '11/30/2017',
         'category': 'Shopping',
@@ -91,7 +98,7 @@ SCAFFOLDING_OFFERS = [
     {
         'id': 8,
         'title': 'Let\'s Get Moving',
-        'icon': '&#xf1bb;',
+        'icon': ICONS['fa-tree'],
         'text': 'Stream Spotify hiking playlist.',
         'expiration': 'Fun never expires.',
         'category': 'Travel',

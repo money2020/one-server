@@ -3,14 +3,22 @@ import os
 import requests
 
 from capitalone import CapitalOne
+from cardmember import CardMember
 from offermanager import OfferManager
 
 from flask import Flask, jsonify, request, render_template
 from flask.ext.cors import CORS
 
 
+
 c1 = CapitalOne(config.token)
 om = OfferManager()
+cardmembers = {}
+def get_cardmember(username='nick'):
+    if username not in cardmembers:
+        cardmembers[username] = CardMember(username)
+
+    return cardmembers[username]
 
 app = Flask(__name__)
 CORS(app)
@@ -36,16 +44,27 @@ def one_preapproved():
 @app.route('/api/one/spend', methods=['GET'])
 def one_transactions():
     """ Returns top spending categories """
-    return jsonify(c1.get_spend('transactions/user1.csv'))
+
+    cm = get_cardmember(request.args.get('user', 'nick'))
+
+    return jsonify(cm.process_transactions())
 
 
 @app.route('/api/one/offers', methods=['GET'])
 def one_offers():
     """ Returns personalized offers """
 
+    # Step 1: Get the CardMember
+    cm = get_cardmember(request.args.get('user', 'nick'))
+
+    # Step 2: Get the Offers
     all_offers = om.get_offers() + om.inject_card_offer(c1.get_preapproved())
 
-    return jsonify(all_offers)
+    # Step 3: Personalize the Offers
+    targetted_offers = om.filter_offers(cm, all_offers)
+
+    # Step 4: Profit!
+    return jsonify(targetted_offers)
 
 
 @app.route('/api/one/offers/create', methods=['GET', 'POST'])

@@ -56,6 +56,11 @@ class OfferManager:
             'isCardOffer': True
         }]
 
+    def filter_offers(self, cardmember, offerlist):
+        if cardmember.username == 'nick':
+            return offerlist
+        else:
+            return [o for o in offerlist if o.get('isCardOffer', False)]
 
     def remove_offers(self):
         return self.r.delete('offers')
