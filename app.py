@@ -26,7 +26,7 @@ def one_rewards():
 
 @app.route('/api/one/spend', methods=['GET'])
 def one_transactions():
-    return jsonify(c1.get_spend('../transactions/user1.csv'))
+    return jsonify(c1.get_spend('transactions/user1.csv'))
 
 if __name__ == '__main__':
     app.run(debug=True,
