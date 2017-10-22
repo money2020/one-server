@@ -36,7 +36,7 @@ class CapitalOne:
             .reset_index())
 
         processed['pct_spend'] = processed['tot_spend'] / processed['tot_spend'].sum()
-        return processed.to_dict('index')
+        return processed.to_dict('index').values()
 
     def _get_stats(self, group):
         return {
