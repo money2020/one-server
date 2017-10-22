@@ -16,15 +16,15 @@ class OfferManager:
             'subcategory': 'Restaurant',
             'color': cat_to_color('Food & Dining')
         },
-        {
-            'id': 2,
-            'title': 'Book Your Holiday Early.',
-            'icon': '&#xf0f4;',
-            'text': '25% bonus points at you Hilton stay. Exp 11/25/2017.',
-            'category': 'Travel',
-            'subcategory': 'Hotels',
-            'color': cat_to_color('Travel')
-        },
+        # {
+        #     'id': 2,
+        #     'title': 'Book Your Holiday Early.',
+        #     'icon': '&#xf0f4;',
+        #     'text': '25% bonus points at you Hilton stay. Exp 11/25/2017.',
+        #     'category': 'Travel',
+        #     'subcategory': 'Hotels',
+        #     'color': cat_to_color('Travel')
+        # },
         {
             'id': 3,
             'title': 'Refill your prescription.',
@@ -61,15 +61,15 @@ class OfferManager:
             'subcategory': 'Groceries',
             'color': cat_to_color('Food & Dining')
         },
-        {
-            'id': 7,
-            'title': 'Let\'s Get Moving',
-            'icon': '&#xf1fd;',
-            'text': 'Stream Spotify playlist for your Yosemite hike.',
-            'category': 'Travel',
-            'subcategory': 'Activities',
-            'color': cat_to_color('Travel')
-        },
+        # {
+        #     'id': 7,
+        #     'title': 'Let\'s Get Moving',
+        #     'icon': '&#xf1fd;',
+        #     'text': 'Stream Spotify playlist for your Yosemite hike.',
+        #     'category': 'Travel',
+        #     'subcategory': 'Activities',
+        #     'color': cat_to_color('Travel')
+        # },
     ]
 
 
