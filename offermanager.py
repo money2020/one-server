@@ -7,15 +7,15 @@ from utils import cat_to_color
 class OfferManager:
 
     SCAFFOLDING_OFFERS = [
-        {
-            'id': 1,
-            'title': 'Happy Birthday, Lucas! ***EXCLUSIVE***',
-            'icon': '&#xf1fd;',
-            'text': '$20 off Italianos when you pay with points',
-            'category': 'Food & Dining',
-            'subcategory': 'Restaurant',
-            'color': cat_to_color('Food & Dining')
-        },
+        # {
+        #     'id': 1,
+        #     'title': 'Happy Birthday, Lucas! ***EXCLUSIVE***',
+        #     'icon': '&#xf1fd;',
+        #     'text': '$20 off Italianos when you pay with points',
+        #     'category': 'Food & Dining',
+        #     'subcategory': 'Restaurant',
+        #     'color': cat_to_color('Food & Dining')
+        # },
         {
             'id': 2,
             'title': 'Book Your Holiday Escape Early.',
@@ -23,7 +23,7 @@ class OfferManager:
             'text': '25% bonus points at you Hilton stay. Exp 11/25/2017.',
             'category': 'Travel',
             'subcategory': 'Hotels',
-            'color': cat_to_color('Shopping')
+            'color': cat_to_color('Travel')
         },
         {
             'id': 3,
@@ -32,7 +32,7 @@ class OfferManager:
             'text': '+200 pts from CVS. Exp 10/31/2017.',
             'category': 'Health & Fitness',
             'subcategory': 'Health',
-            'color': cat_to_color('Food & Dining')
+            'color': cat_to_color('Health & Fitness')
         },
         {
             'id': 4,
@@ -41,7 +41,7 @@ class OfferManager:
             'text': 'FREE Pumpkin Spice Latte at Starbucks. Exp 11/11/2017.',
             'category': 'Food & Dining',
             'subcategory': 'Coffee Shop',
-            'color': cat_to_color('Shopping')
+            'color': cat_to_color('Food & Dining')
         },
         {
             'id': 5,
@@ -50,7 +50,7 @@ class OfferManager:
             'text': '+1,000 pts and free shipping from B&H Photo. Exp 11/25/2017',
             'category': 'Shopping',
             'subcategory': 'Electronics',
-            'color': cat_to_color('Food & Dining')
+            'color': cat_to_color('Shopping')
         },
         {
             'id': 6,
@@ -59,7 +59,7 @@ class OfferManager:
             'text': '+500 points when you redeem at Wholefoods. Exp 11/26/2017.',
             'category': 'Food & Dining',
             'subcategory': 'Groceries',
-            'color': cat_to_color('Shopping')
+            'color': cat_to_color('Food & Dining')
         },
         {
             'id': 7,
@@ -68,7 +68,7 @@ class OfferManager:
             'text': 'Stream Spotify playlist for your Yosemite hike.',
             'category': 'Travel',
             'subcategory': 'Activities',
-            'color': cat_to_color('Food & Dining')
+            'color': cat_to_color('Travel')
         },
     ]
 
