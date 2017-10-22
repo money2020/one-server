@@ -107,6 +107,11 @@ class OfferManager:
                         print("adding based on new_customers")
                         initial_offer_list.append(o)
 
+                if tgt == 'repeat_traffic':
+                    if cardmember.get_is_repeat_traffic(MERCHANT_NAME) and o['id'] not in (s['id'] for s in initial_offer_list):
+                        print("adding based on repeat_traffic")
+                        initial_offer_list.append(o)
+
         return initial_offer_list
 
 
