@@ -63,7 +63,7 @@ class OfferManager:
         },
         {
             'id': 7,
-            'title': 'Let’s Get Moving',
+            'title': 'Let\'s Get Moving',
             'icon': '&#xf1bb;',
             'text': 'Stream Spotify playlist for your Yosemite hike.',
             'category': 'Travel',
