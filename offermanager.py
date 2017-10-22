@@ -99,12 +99,12 @@ class OfferManager:
                 # Target based on location
                 if tgt == 'location':
                     if cardmember.get_currenct_city() == CURRENT_LOCATION and o['id'] not in (s['id'] for s in initial_offer_list):
-                        print "adding based on location!"
+                        print("adding based on location!")
                         initial_offer_list.append(o)
 
                 if tgt == 'new_customers':
                     if not cardmember.get_is_repeat_traffic(MERCHANT_NAME) and o['id'] not in (s['id'] for s in initial_offer_list):
-                        print "adding based on new_customers"
+                        print("adding based on new_customers")
                         initial_offer_list.append(o)
 
         return initial_offer_list
