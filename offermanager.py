@@ -20,7 +20,7 @@ class OfferManager:
             'id': 2,
             'title': 'Book Your Holiday Escape Early.',
             'icon': '&#xf236;',
-            'text': '25% bonus points at you Hilton stay. Exp 11/25/2017.',
+            'text': '25% bonus points at you Hilton stay. Exp 11/25/2017.',
             'category': 'Travel',
             'subcategory': 'Hotels',
             'color': cat_to_color('Shopping')
@@ -47,7 +47,7 @@ class OfferManager:
             'id': 5,
             'title': 'Gear up your camera for Christmas!',
             'icon': '&#xf030;',
-            'text': '+1,000 pts and free shipping from B&H Photo. Exp 11/25/2017',
+            'text': '+1,000 pts and free shipping from B&H Photo. Exp 11/25/2017',
             'category': 'Shopping',
             'subcategory': 'Electronics',
             'color': cat_to_color('Food & Dining')
