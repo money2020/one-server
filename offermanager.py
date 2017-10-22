@@ -33,7 +33,7 @@ class OfferManager:
                 'text': 'Free Pumpkin Spice Latte at Starbucks',
                 'category': 'Food & Dining',
                 'subcategory': 'Coffee Shop',
-                'color': cat_to_color('Unknown')
+                'color': cat_to_color('Shopping')
             }
         ]
 
