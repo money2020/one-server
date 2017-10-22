@@ -26,6 +26,12 @@ def one_rewards():
     return jsonify(c1.get_points())
 
 
+@app.route('/api/one/preapproved', methods=['GET'])
+def one_preapproved():
+    """ Returns preapproved credit offers """
+    return jsonify(c1.get_preapproved())
+
+
 @app.route('/api/one/spend', methods=['GET'])
 def one_transactions():
     """ Returns top spending categories """
@@ -44,7 +50,7 @@ def one_offers_create():
         return render_template('add_ad.html')
     else:
         offer = {}
-        for k in ['title', 'icon', 'text', 'category', 'subcategory']:
+        for k in ['title', 'icon', 'text', 'category', 'expiration', 'subcategory']:
             if request.form.get(k):
                 offer[k] = request.form.get(k)
             else:
