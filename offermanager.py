@@ -2,6 +2,8 @@ import json
 import os
 import redis
 
+from utils import cat_to_color
+
 class OfferManager:
 
     def __init__(self):
@@ -21,7 +23,8 @@ class OfferManager:
                 'icon': '&#xf1fd;',
                 'text': '$20 off Italianos when you pay with points',
                 'category': 'Food & Dining',
-                'subcategory': 'Restaurant'
+                'subcategory': 'Restaurant',
+                'color': cat_to_color('Food & Dining')
             },
             {
                 'id': 2,
@@ -29,7 +32,8 @@ class OfferManager:
                 'icon': '&#xf0f4;',
                 'text': 'Free Pumpkin Spice Latte at Starbucks',
                 'category': 'Food & Dining',
-                'subcategory': 'Coffee Shop'
+                'subcategory': 'Coffee Shop',
+                'color': cat_to_color('Unknown')
             }
         ]
 
