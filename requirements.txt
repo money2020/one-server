@@ -2,4 +2,5 @@ Flask
 Flask-Cors
 numpy
 pandas
+redis
 requests

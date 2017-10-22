@@ -3,11 +3,13 @@ import os
 import requests
 
 from capitalone import CapitalOne
+from offermanager import OfferManager
 
 from flask import Flask, jsonify, request, render_template
 from flask.ext.cors import CORS
 
 c1 = CapitalOne(config.token)
+om = OfferManager()
 
 app = Flask(__name__)
 CORS(app)
