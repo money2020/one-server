@@ -1,4 +1,5 @@
 import config
+import json
 import os
 import requests
 
@@ -73,12 +74,24 @@ def one_offers_create():
         return render_template('add_ad.html')
     else:
         offer = {}
-        for k in ['title', 'icon', 'text', 'category', 'expiration', 'subcategory']:
-            if request.form.get(k):
-                offer[k] = request.form.get(k)
-            else:
-                return k + ' is empty, please fill it out'
 
+        if request.form.get('json'):
+            json_offer = json.loads(request.form.get('json'))
+
+            for k in ['title', 'icon', 'text', 'category', 'expiration', 'subcategory']:
+                if k in json_offer['copy']:
+                    offer[k] = json_offer['copy'][k]
+                else:
+                    return k + ' is empty, please fill it out'
+
+        else:
+            for k in ['title', 'icon', 'text', 'category', 'expiration', 'subcategory']:
+                if request.form.get(k):
+                    offer[k] = request.form.get(k)
+                else:
+                    return k + ' is empty, please fill it out'
+
+        
         return jsonify(om.add_offer(offer))
 
 

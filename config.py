@@ -17,13 +17,13 @@ ICONS = {
 SCAFFOLDING_OFFERS = [
     # {
     #     'id': 1,
-    #     'title': 'Happy Birthday, Lucas! ***EXCLUSIVE***',
+    #     'title': 'Happy Birthday, Nick! ***EXCLUSIVE***',
     #     'icon': ICONS['fa-birthday-cake'],
     #     'text': '$20 off Italianos, pay with pts',
     #     'category': 'Food & Dining',
     #     'subcategory': 'Restaurant',
     #     'color': cat_to_color('Food & Dining'),
-    #     'target': 'lucas'
+    #     'target': 'nick'
     # },
 
     # Lucas Offers
@@ -36,7 +36,7 @@ SCAFFOLDING_OFFERS = [
         'category': 'Travel',
         'subcategory': 'Hotels',
         'color': cat_to_color('Travel'),
-        'target': 'lucas'
+        'target': 'nick'
     },
     {
         'id': 3,
@@ -47,7 +47,7 @@ SCAFFOLDING_OFFERS = [
         'category': 'Health & Fitness',
         'subcategory': 'Health',
         'color': cat_to_color('Health & Fitness'),
-        'target': 'lucas'
+        'target': 'nick'
     },
     {
         'id': 4,
@@ -58,7 +58,7 @@ SCAFFOLDING_OFFERS = [
         'category': 'Food & Dining',
         'subcategory': 'Coffee Shop',
         'color': cat_to_color('Food & Dining'),
-        'target': 'lucas'
+        'target': 'nick'
     },
     {
         'id': 5,
@@ -69,7 +69,7 @@ SCAFFOLDING_OFFERS = [
         'category': 'Shopping',
         'subcategory': 'Electronics',
         'color': cat_to_color('Shopping'),
-        'target': 'lucas'
+        'target': 'nick'
     },
 
     # Tatiana Offers
@@ -82,7 +82,7 @@ SCAFFOLDING_OFFERS = [
         'category': 'Travel',
         'subcategory': 'Hotels',
         'color': cat_to_color('Travel'),
-        'target': 'tatiana'
+        'target': 'cathy'
     },
     {
         'id': 7,
@@ -93,7 +93,7 @@ SCAFFOLDING_OFFERS = [
         'category': 'Shopping',
         'subcategory': 'Groceries',
         'color': cat_to_color('Shopping'),
-        'target': 'tatiana'
+        'target': 'cathy'
     },
     {
         'id': 8,
@@ -104,6 +104,6 @@ SCAFFOLDING_OFFERS = [
         'category': 'Travel',
         'subcategory': 'Activities',
         'color': cat_to_color('Travel'),
-        'target': 'tatiana'
+        'target': 'cathy'
     },
 ]

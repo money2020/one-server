@@ -1,3 +1,5 @@
+import fnmatch
+
 import numpy as np
 import pandas as pd
 
@@ -52,7 +54,18 @@ class CardMember:
         return self.transactions
 
     def get_tags(self):
+        """ TOOD: Not yet implemented """
         if self.processed is None:
             self.process_transactions()
 
         return self.processed
+
+    #### Building a custom profile for the user ####
+    def get_currenct_city(self):
+        return self.transactions.iloc[0]['Location']
+
+    def get_username(self):
+        return self.username
+
+    def get_is_repeat_traffic(self, glob):
+        return len(fnmatch.filter(self.transactions['Description'], glob)) > 0
