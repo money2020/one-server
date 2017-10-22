@@ -38,14 +38,29 @@ def one_offers():
     return jsonify(om.get_offers())
 
 
-@app.route('/api/one/offers/create', methods=['GET'])
+@app.route('/api/one/offers/create', methods=['GET', 'POST'])
 def one_offers_create():
+    if request.method == 'GET':
+        return render_template('add_ad.html')
+    else:
+        offer = {}
+        for k in ['title', 'icon', 'text', 'category', 'subcategory']:
+            if request.form.get(k):
+                offer[k] = request.form.get(k)
+            else:
+                return k + ' is empty, please fill it out'
+
+        return jsonify(om.add_offer(offer))
+
+
+@app.route('/api/one/offers/bootstrap', methods=['GET'])
+def one_offers_bootstrap():
     """ Scaffolding: Create personalized offers """
     return jsonify(om.create_offers())
 
 
-@app.route('/api/one/offers/remove', methods=['GET'])
-def one_offers_remove():
+@app.route('/api/one/offers/clear', methods=['GET'])
+def one_offers_clear():
     """ Scaffolding: Clear all personalized offers """
     return jsonify(om.remove_offers())
 
