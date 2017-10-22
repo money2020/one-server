@@ -1,11 +1,10 @@
 categories = {
-    'Bills': 'rgb(252, 45, 121)',
-    'Shopping': 'rgb(252, 182, 53)',
-    'Travel': 'rgb(193, 193, 193)',
-    'Food & Dining': 'rgb(74, 144, 226)',
-    'Health & Fitness': 'rgb(17, 205, 197)',
-    'Services': 'rgb(252, 182, 53)',
-    'Unknown': 'rgb(17, 205, 197)'
+    'Bills': {'r': 252, 'g': 45, 'b': 121},
+    'Shopping': {'r': 252, 'g': 182, 'b': 53},
+    'Travel': {'r': 17, 'g': 205, 'b': 197},
+    'Food & Dining': {'r': 74, 'g': 144, 'b': 226},
+    'Health & Fitness': {'r': 17, 'g': 205, 'b': 197},
+    'Unknown': {'r': 193, 'g': 193, 'b': 193}
 }
 
 def cat_to_color(category):
