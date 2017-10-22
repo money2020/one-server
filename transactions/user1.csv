@@ -1,0 +1,143 @@
+Type,Trans Date,Description,Amount,Category,SubCategory,Location
+Sale,10/20/17,OSHA THAI RESTAURANT.,22,Shopping,Apparel,New York
+Sale,10/19/17,SQ *PHILZ COFFEE,3.6,Shopping,Electronics,New York
+Sale,10/18/17,TRAVEL RETAIL ITALIAN 970,79.69,Shopping,Gifts,New York
+Sale,10/18/17,STARBUCKS STORE 09216,2.45,Travel,Air,Italy
+Sale,10/18/17,SQ *EL PORTENO EMPANADAS,6.51,Travel,Hotel,New York
+Sale,10/15/17,VERNAZZA SS DPR,9.5,Travel,Car,San Francisco
+Sale,10/15/17,PIAZZA VIII AGOSTO    538,3.03,Food & Dining,Fast Food,New York
+Sale,10/15/17,AUTOST LA SPEZIA/BOLOGNA,25.31,Food & Dining,Coffee Shop,Italy
+Sale,10/14/17,NUOVO EDEN,28.38,Food & Dining,Restaurant,New York
+Sale,10/14/17,COOP CONSUMO CINQUE TERRE,15.17,Food & Dining,Grocery,New York
+Sale,10/13/17,UNITED      0168662938578,581.83,Bills,Utilities,New York
+Sale,10/13/17,LA SPEZIA CENTRALE SS,19,Bills,Services,San Francisco
+Sale,10/13/17,AUTOST MODENA SUD/LA SPEZ,22.68,Health & Fitness,Gym,Italy
+Sale,10/9/17,ACCOGLIENZA STAZIONE RIOM,37.85,Shopping,Apparel,New York
+Sale,10/9/17,TRATTORIA DAL BILLY S.N.C,41.1,Shopping,Electronics,New York
+Sale,10/8/17,ENTE PARCO NAZIONALE DELL,37.62,Shopping,Gifts,Italy
+Sale,10/8/17,LA SPEZIA CENTRALE SS,9.39,Travel,Air,San Francisco
+Sale,10/8/17,AUTOST MODENA NORD/LA SPE,21.4,Travel,Hotel,New York
+Sale,10/8/17,ENOTECA DAU CILA,37.03,Travel,Car,New York
+Sale,10/8/17,UNITED      0168661170621,1626.41,Food & Dining,Fast Food,Italy
+Sale,10/7/17,HOMBRE SRL,22.34,Food & Dining,Coffee Shop,Italy
+Sale,10/7/17,PUSHSTART SRL,258.65,Food & Dining,Restaurant,New York
+Sale,10/7/17,CA MONTANARI SOCIETA A,54.59,Food & Dining,Grocery,New York
+Sale,10/7/17,GALLERIA FERRARI,35.27,Bills,Utilities,San Francisco
+Sale,10/7/17,PUSHSTART SRL,505.54,Bills,Services,Italy
+Sale,10/7/17,FERRARI SHOP C/O MUSEO FE,7.05,Health & Fitness,Gym,Italy
+Sale,10/7/17,HARRAH'S HOTEL LV RESERV,196.6,Shopping,Apparel,New York
+Sale,10/6/17,ZEROCINQUANTINO       179,27,Shopping,Electronics,San Francisco
+Sale,10/6/17,5505                  186,10.8,Shopping,Gifts,New York
+Sale,10/4/17,C'E'PASTA PER TE DI ZA,37.72,Travel,Air,New York
+Sale,10/4/17,HOTELS.COM142064071570,479.04,Travel,Hotel,New York
+Sale,10/2/17,PUBLIC STORAGE 25402,141,Travel,Car,New York
+Sale,9/30/17,PUSHSTART SRL,791.79,Food & Dining,Fast Food,New York
+Sale,9/30/17,DRIVER,3.55,Food & Dining,Coffee Shop,New York
+Sale,9/30/17,GALLERIA FERRARI,37.82,Food & Dining,Restaurant,New York
+Sale,9/28/17,PARAFARMACIA SAN BIAGIO,20.45,Food & Dining,Grocery,Italy
+Sale,9/25/17,EMILIA SUITE,1126.37,Bills,Utilities,New York
+Sale,9/23/17,AUTOST FI IMPRUNETA/MODEN,13.16,Bills,Services,New York
+Sale,9/23/17,PARK DUOMO,21.61,Health & Fitness,Gym,San Francisco
+Sale,9/23/17,BIGLIETTERIA SANTA MA,24.01,Shopping,Apparel,Italy
+Sale,9/23/17,AUTOST MODENA SUD/FI IMPR,12.08,Shopping,Electronics,San Francisco
+Sale,9/22/17,MARANELLO RESIDENCE SRL,43.06,Shopping,Gifts,Italy
+Sale,9/19/17,EMILIA SUITE,394.71,Travel,Air,New York
+Sale,9/18/17,HOTELS.COM141644457302,474.51,Travel,Hotel,New York
+Sale,9/17/17,SOYLENT,29,Travel,Car,Italy
+Sale,9/17/17,FAIRMONT WATERFRONT F&amp;B,7.43,Food & Dining,Fast Food,San Francisco
+Sale,9/16/17,STARBUCKS 00165,3.6,Food & Dining,Coffee Shop,New York
+Sale,9/16/17,TIM HORTONS 2940 QTH,2.98,Food & Dining,Restaurant,Italy
+Sale,9/16/17,GATEWAY NEWS STAND,8.67,Food & Dining,Grocery,San Francisco
+Sale,9/16/17,TIM HORTONS 4443 QTH,5.23,Bills,Utilities,New York
+Sale,9/15/17,BC LIQUOR #177,36.14,Bills,Services,Italy
+Sale,9/14/17,BLENZ COFFEE BENTALL 5,4.56,Health & Fitness,Gym,New York
+Sale,9/14/17,SUSHIQ,21.86,Shopping,Apparel,New York
+Sale,9/13/17,KISHIMOTO JAPANESE KITCHE,63.28,Shopping,Electronics,New York
+Sale,9/9/17,HEINEMANN DUTY FREE,36.16,Shopping,Gifts,New York
+Sale,9/8/17,SAN BABILA 4C S.R.L.,42.33,Travel,Air,San Francisco
+Sale,9/8/17,HOTELS.COM141390195427,99.51,Travel,Hotel,New York
+Sale,9/7/17,AVIS.COM PREPAY RESERV,62.97,Travel,Car,London
+Sale,9/2/17,PUBLIC STORAGE 25402,141,Food & Dining,Fast Food,New York
+Sale,9/2/17,DEPOSITO MESSINA,160.12,Food & Dining,Coffee Shop,London
+Fee,9/1/17,ANNUAL MEMBERSHIP FEE,450,Food & Dining,Restaurant,Italy
+Sale,9/1/17,FERRARI STORE MILANO,47.92,Food & Dining,Grocery,Italy
+Sale,8/30/17,CAFE SACHER WIEN,14.89,Bills,Utilities,Italy
+Sale,8/30/17,WIENER LINIEN 1051,2.62,Bills,Services,New York
+Sale,8/30/17,FIGLMUELLER WOLLZEILE,30.26,Health & Fitness,Gym,New York
+Sale,8/30/17,RESTAURANT DER GRIECHE,32.76,Shopping,Apparel,New York
+Sale,8/30/17,VIAS,4.77,Shopping,Electronics,New York
+Sale,8/30/17,CAT TICKET,25.17,Shopping,Gifts,San Francisco
+Sale,8/29/17,STARBUCKS CENTURY CITY,25.2,Travel,Air,New York
+Sale,8/29/17,PIAZZA CAFE &amp; BAR,17.64,Travel,Hotel,New York
+Sale,8/29/17,GRABTAXI PHILS - IPG (,2.94,Travel,Car,New York
+Sale,8/29/17,ATIN ITO,1.04,Food & Dining,Fast Food,Italy
+Sale,8/29/17,GRABTAXI PHILS - IPG (,1.8,Food & Dining,Coffee Shop,London
+Sale,8/29/17,GRABTAXI PHILS - IPG (,5.88,Food & Dining,Restaurant,San Francisco
+Sale,8/28/17,GRABTAXI PHILS - IPG (,2.14,Food & Dining,Grocery,New York
+Sale,8/28/17,GRABTAXI PHILS - IPG (,3.26,Bills,Utilities,New York
+Sale,8/28/17,GRABTAXI PHILS - IPG (,1.73,Bills,Services,New York
+Sale,8/28/17,UNIQLO CENTURY CITY MA,11.58,Health & Fitness,Gym,London
+Sale,8/28/17,GRABTAXI PHILS - IPG (,2.24,Shopping,Apparel,San Francisco
+Sale,8/28/17,STARBUCKS  GREENBELT 3,2.84,Shopping,Electronics,San Francisco
+Sale,8/27/17,GRABTAXI PHILS - IPG (,3.78,Shopping,Gifts,Italy
+Sale,8/27/17,LOCAVORE,33.3,Travel,Air,New York
+Sale,8/27/17,GRABTAXI PHILS - IPG (,2.2,Travel,Hotel,San Francisco
+Sale,8/27/17,INREACHDELORME.COM,12.69,Travel,Car,New York
+Sale,8/27/17,GRABTAXI PHILS - IPG (,2.08,Food & Dining,Fast Food,New York
+Sale,8/24/17,THE NEST BEACH RESORT-,120.77,Food & Dining,Coffee Shop,Italy
+Sale,8/23/17,BEIJINGSHOUDUJICHANGCA,6.61,Food & Dining,Restaurant,San Francisco
+Sale,8/22/17,SAUNA EKVATOR,7.04,Food & Dining,Grocery,Italy
+Sale,8/22/17,RESTORAN SPLETNI,11.05,Bills,Utilities,New York
+Sale,8/22/17,IP BATUEVA E.G.,42.42,Bills,Services,New York
+Sale,8/22/17,RESTORAN SPLETNI,75.96,Health & Fitness,Gym,New York
+Sale,8/21/17,CHERCHILL DOSTAVKA,112.74,Shopping,Apparel,Italy
+Sale,8/20/17,IP BATUEVA E.G.,47.52,Shopping,Electronics,New York
+Sale,8/20/17,NOMADS HOSPITALITY,40.26,Shopping,Gifts,San Francisco
+Sale,8/19/17,9011047135,54.28,Travel,Air,New York
+Sale,8/19/17,KHA73052993,11.64,Travel,Hotel,Italy
+Sale,8/19/17,NOMIN STATE FOODS DEPARTM,1.58,Travel,Car,New York
+Sale,8/19/17,NOMIN UID FASHION  16,8.2,Food & Dining,Fast Food,San Francisco
+Sale,8/19/17,WWW.S7.RU,1018.34,Food & Dining,Coffee Shop,London
+Sale,8/19/17,TOURIST INFORMATION CE,8.12,Food & Dining,Restaurant,New York
+Sale,8/19/17,NSH77033164,6.61,Food & Dining,Grocery,New York
+Sale,8/19/17,UNITED      0162361551660,43.9,Bills,Utilities,New York
+Sale,8/19/17,ISLAND TRANSVOYAGER-PHP,431.37,Bills,Services,Italy
+Sale,8/19/17,5700698,57.86,Health & Fitness,Gym,Italy
+Sale,8/19/17,MONGOL SHUUDAN TVT,14.88,Shopping,Apparel,New York
+Sale,8/19/17,CHG82011902,34.19,Shopping,Electronics,San Francisco
+Sale,8/16/17,NIC GOVI ALTAI,24.64,Shopping,Gifts,New York
+Sale,8/15/17,TSAMBAGARAV SUPERMARKET,13.82,Travel,Air,New York
+Sale,8/14/17,UNIVERSAM RUBTSOVSKIY,3.62,Travel,Hotel,Italy
+Sale,8/14/17,TS PODKOVA,5.37,Travel,Car,Italy
+Sale,8/14/17,AZS N26,2.88,Food & Dining,Fast Food,London
+Sale,8/14/17,TS PODKOVA,32.75,Food & Dining,Coffee Shop,New York
+Sale,8/14/17,TS PODKOVA,97.07,Food & Dining,Restaurant,New York
+Sale,8/13/17,TOO HELIOS,11.09,Food & Dining,Grocery,Italy
+Sale,8/11/17,7 DNEI SUPER ARZAN,0.72,Bills,Utilities,San Francisco
+Sale,8/5/17,PUBLIC STORAGE 25402,141,Bills,Services,New York
+Sale,8/3/17,POS013 HOTEL GRAND TURKME,123.6,Health & Fitness,Gym,New York
+Sale,8/3/17,POS013 HOTEL GRAND TURKME,4.12,Shopping,Apparel,Italy
+Sale,8/3/17,POS17027,7.67,Shopping,Electronics,San Francisco
+Sale,8/3/17,POS013 HOTEL GRAND TURKME,123.6,Shopping,Gifts,Italy
+Sale,8/3/17,POS013 HOTEL GRAND TURKME,4.12,Travel,Air,New York
+Sale,8/2/17,POS17017 KAMIL MARKET K12,0.21,Travel,Hotel,New York
+Sale,8/2/17,POS17017 KAMIL MARKET K12,22.64,Travel,Car,Italy
+Sale,8/2/17,POS17027,22.72,Food & Dining,Fast Food,Italy
+Sale,7/29/17,JW MARIOTT FD 9,163.55,Food & Dining,Coffee Shop,San Francisco
+Sale,7/24/17,AYTEMIZ SARIOGULLARI,1.56,Food & Dining,Restaurant,San Francisco
+Sale,7/23/17,SBX IST SULTANAHMET,10.8,Food & Dining,Grocery,San Francisco
+Sale,7/23/17,STARBUCKS ANK OPTIMUM,3.13,Bills,Utilities,San Francisco
+Sale,7/22/17,9000001686-MOLA PETROL,72.45,Bills,Services,New York
+Sale,7/20/17,MOL A1 SUD GIARMATA KM,5.69,Health & Fitness,Gym,San Francisco
+Sale,7/19/17,CS 0227 - PRUHONICE P,28.32,Shopping,Apparel,Italy
+Sale,7/18/17,ALBERT 0617,15.34,Shopping,Electronics,New York
+Sale,7/17/17,SBX Karlova,16.76,Shopping,Gifts,New York
+Sale,7/14/17,LP ELEKTRONIK 02,21.84,Travel,Air,New York
+Sale,7/14/17,E-Commerce Partners  01,27.3,Travel,Hotel,New York
+Sale,7/8/17,UNITED      0168635798920,1300.24,Travel,Car,San Francisco
+Sale,7/8/17,LUFTHANSA   2202384424419,347.52,Food & Dining,Fast Food,Italy
+Sale,7/3/17,BOBBY'S BURGER PALACE,27.45,Food & Dining,Coffee Shop,New York
+Sale,7/3/17,PARADIES #9390 IAD,4.39,Food & Dining,Restaurant,London
+Sale,7/3/17,TST* THE BIRD,26,Food & Dining,Grocery,San Francisco
+Sale,7/2/17,PUBLIC STORAGE 25402,126,Bills,Utilities,New York
+Sale,7/1/17,Birch &amp; Barley/Churchkey,17,Bills,Services,New York
