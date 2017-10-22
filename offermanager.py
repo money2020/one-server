@@ -16,23 +16,23 @@ class OfferManager:
             'subcategory': 'Restaurant',
             'color': cat_to_color('Food & Dining')
         },
-        # {
-        #     'id': 2,
-        #     'title': 'Book Your Holiday Early.',
-        #     'icon': '&#xf0f4;',
-        #     'text': '25% bonus points at you Hilton stay. Exp 11/25/2017.',
-        #     'category': 'Travel',
-        #     'subcategory': 'Hotels',
-        #     'color': cat_to_color('Travel')
-        # },
+        {
+            'id': 2,
+            'title': 'Book Your Holiday Escape Early.',
+            'icon': '&#xf236;',
+            'text': '25% bonus points at you Hilton stay. Exp 11/25/2017.',
+            'category': 'Travel',
+            'subcategory': 'Hotels',
+            'color': cat_to_color('Shopping')
+        },
         {
             'id': 3,
             'title': 'Refill your prescription.',
-            'icon': '&#xf1fd;',
+            'icon': '&#xf004;',
             'text': '+200 pts from CVS. Exp 10/31/2017.',
             'category': 'Health & Fitness',
             'subcategory': 'Health',
-            'color': cat_to_color('Health & Fitness')
+            'color': cat_to_color('Food & Dining')
         },
         {
             'id': 4,
@@ -41,35 +41,35 @@ class OfferManager:
             'text': 'FREE Pumpkin Spice Latte at Starbucks. Exp 11/11/2017.',
             'category': 'Food & Dining',
             'subcategory': 'Coffee Shop',
-            'color': cat_to_color('Food & Dining')
+            'color': cat_to_color('Shopping')
         },
         {
             'id': 5,
             'title': 'Gear up your camera for Christmas!',
-            'icon': '&#xf1fd;',
-            'text': '+1,000 pts and free shipping from B&H Photo. Exp 11/25/2017',
+            'icon': '&#xf030;',
+            'text': '+1,000 pts and free shipping from B&H Photo. Exp 11/25/2017',
             'category': 'Shopping',
             'subcategory': 'Electronics',
-            'color': cat_to_color('Shopping')
+            'color': cat_to_color('Food & Dining')
         },
         {
             'id': 6,
             'title': 'Turkey Time?',
-            'icon': '&#xf0f4;',
+            'icon': '&#xf099;',
             'text': '+500 points when you redeem at Wholefoods. Exp 11/26/2017.',
             'category': 'Food & Dining',
             'subcategory': 'Groceries',
+            'color': cat_to_color('Shopping')
+        },
+        {
+            'id': 7,
+            'title': 'Let’s Get Moving',
+            'icon': '&#xf1bb;',
+            'text': 'Stream Spotify playlist for your Yosemite hike.',
+            'category': 'Travel',
+            'subcategory': 'Activities',
             'color': cat_to_color('Food & Dining')
         },
-        # {
-        #     'id': 7,
-        #     'title': 'Let\'s Get Moving',
-        #     'icon': '&#xf1fd;',
-        #     'text': 'Stream Spotify playlist for your Yosemite hike.',
-        #     'category': 'Travel',
-        #     'subcategory': 'Activities',
-        #     'color': cat_to_color('Travel')
-        # },
     ]
 
 
