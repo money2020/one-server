@@ -8,6 +8,7 @@ from offermanager import OfferManager
 from flask import Flask, jsonify, request, render_template
 from flask.ext.cors import CORS
 
+
 c1 = CapitalOne(config.token)
 om = OfferManager()
 
@@ -41,7 +42,10 @@ def one_transactions():
 @app.route('/api/one/offers', methods=['GET'])
 def one_offers():
     """ Returns personalized offers """
-    return jsonify(om.get_offers())
+
+    all_offers = om.get_offers() + om.inject_card_offer(c1.get_preapproved())
+
+    return jsonify(all_offers)
 
 
 @app.route('/api/one/offers/create', methods=['GET', 'POST'])
@@ -62,7 +66,7 @@ def one_offers_create():
 @app.route('/api/one/offers/bootstrap', methods=['GET'])
 def one_offers_bootstrap():
     """ Scaffolding: Create personalized offers """
-    return jsonify(om.create_offers())
+    return jsonify(om.set_offers(config.SCAFFOLDING_OFFERS))
 
 
 @app.route('/api/one/offers/clear', methods=['GET'])
