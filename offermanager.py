@@ -5,6 +5,22 @@ import redis
 from config import ICONS
 from utils import cat_to_color
 
+
+CURRENT_LOCATION = 'Las Vegas'
+MERCHANT_NAME = '*VENETIAN*'
+
+AVAILABLE_USER_TAGS = [
+    'new_customers',
+    'repeat_traffic',
+    'recent_activity',
+    'weather',
+    'location',
+    'like_for_like',
+    'personal_preference',
+    'social_data'
+]
+
+
 class OfferManager:
 
     def __init__(self):
@@ -58,13 +74,38 @@ class OfferManager:
 
     def filter_offers(self, cardmember, offerlist):
 
+        # Credit Card Offer
         initial_offer_list = [o for o in offerlist if o.get('isCardOffer', False) is True]
 
-        for o in offerlist:
-            target = o.get('target', None)
 
-            if target in [cardmember.username, None] and o['id'] not in (s['id'] for s in initial_offer_list):
+        
+        for o in offerlist:
+
+            # skip if exists
+            if o['id'] in (s['id'] for s in initial_offer_list):
+                continue
+
+            target = o.get('target', None)
+            try:
+                smart_target = target.split(',')
+            except:
+                smart_target = []
+
+            # No Targetting or Specific to user
+            if target in [cardmember.username, None]:
                 initial_offer_list.append(o)
+
+            for tgt in smart_target:
+                # Target based on location
+                if tgt == 'location':
+                    if cardmember.get_currenct_city() == CURRENT_LOCATION and o['id'] not in (s['id'] for s in initial_offer_list):
+                        print "adding based on location!"
+                        initial_offer_list.append(o)
+
+                if tgt == 'new_customers':
+                    if not cardmember.get_is_repeat_traffic(MERCHANT_NAME) and o['id'] not in (s['id'] for s in initial_offer_list):
+                        print "adding based on new_customers"
+                        initial_offer_list.append(o)
 
         return initial_offer_list
 

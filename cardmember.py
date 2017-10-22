@@ -4,18 +4,6 @@ import numpy as np
 import pandas as pd
 
 
-AVAILABLE_USER_TAGS = [
-    'new_customers',
-    'repeat_traffic',
-    'recent_activity',
-    'weather',
-    'location',
-    'like_for_like',
-    'personal_preference',
-    'social_data'
-]
-
-
 class CardMember:
     """ Represents a card member profile along with targeting information """
 

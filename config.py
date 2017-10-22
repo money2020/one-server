@@ -91,7 +91,7 @@ SCAFFOLDING_OFFERS = [
         'text': '+500 pts at Wholefoods.',
         'expiration': '11/30/2017',
         'category': 'Shopping',
-        'subcategory': 'Groceries',
+        'subcategory': 'Grocery',
         'color': cat_to_color('Shopping'),
         'target': 'cathy'
     },

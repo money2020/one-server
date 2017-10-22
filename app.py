@@ -18,6 +18,7 @@ cardmembers = {}
 def get_cardmember(username='nick'):
     if username not in cardmembers:
         cardmembers[username] = CardMember(username)
+        cardmembers[username].process_transactions()
 
     return cardmembers[username]
 
@@ -83,6 +84,9 @@ def one_offers_create():
                     offer[k] = json_offer['copy'][k]
                 else:
                     return k + ' is empty, please fill it out'
+
+            # Targeting categories
+            offer['target'] = ','.join(json_offer['target'])
 
         else:
             for k in ['title', 'icon', 'text', 'category', 'expiration', 'subcategory']:
